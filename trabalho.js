@@ -1,3 +1,4 @@
+
 export function geradorDeTagsDeIdentificacao(nome) {
   return nome.toUpperCase();
 }
@@ -14,6 +15,7 @@ export function decidirTipoDeAtividadePorPorte(porte) {
   if (porte === 'pequeno') {
     return 'brincar dentro de casa';
   }
+  return undefined;
 }
 
 export async function buscarDadoAsync() {
